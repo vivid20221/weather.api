@@ -1,0 +1,101 @@
+:root {
+
+}
+
+* {
+
+}
+
+body { 
+    
+
+
+}
+
+.dashboard {
+    background-color:rgb(176, 235, 255);
+    text-align: center;
+    color: white;
+    text-size-adjust: 80px;
+    padding: 10px;
+    
+
+
+
+}
+
+.center-container{
+    display: inline;
+    border: 1px solid silver;
+    border-radius: 4px;
+    
+
+}
+
+.current-city {
+
+
+}
+
+
+.present {
+
+}
+
+.left-chart {
+    
+    width: 40%;
+    
+
+}
+
+#search-city {
+
+
+}
+
+
+.btn {
+    background-color:rgb(176, 235, 255);
+
+}
+
+.line{
+
+
+}
+
+.columns {
+
+
+}
+
+.weather-cards {
+    display: block;
+
+
+}
+
+#monday {
+
+}
+
+#tuesday {
+
+}
+
+#wednesday {
+
+
+}
+
+#thursday {
+
+
+}
+
+#friday {
+
+
+}
+
