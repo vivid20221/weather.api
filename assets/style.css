@@ -81,9 +81,8 @@ textarea {
     display: block;
 }
 
-.weather-cards { display: inline-block
-    margin: 100px;
-    
+.weather-cards { display: inline;
+   
   
 
 
@@ -91,10 +90,10 @@ textarea {
 
 #monday { 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
+    max-width: 30px;
+    display:inline ;
     text-align: center;
-    font-family: arial;
+   
 
 }
 
