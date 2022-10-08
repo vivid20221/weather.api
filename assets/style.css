@@ -7,7 +7,14 @@
 }
 
 body { 
-    
+
+
+
+}
+
+.style {
+    display: inline-flex; 
+    width: 100%;
 
 
 }
@@ -16,7 +23,7 @@ body {
     background-color:rgb(176, 235, 255);
     text-align: center;
     color: white;
-    text-size-adjust: 80px;
+    text-size-adjust: 40px;
     padding: 10px;
     
 
@@ -25,14 +32,14 @@ body {
 }
 
 .center-container{
-    display: inline;
-    border: 1px solid silver;
-    border-radius: 4px;
-    
-
+    width: 80%;
+    margin: 40px
+   
 }
 
 .current-city {
+    12px; border: 1px solid blue;
+
 
 
 }
@@ -43,8 +50,9 @@ body {
 }
 
 .left-chart {
-    
-    width: 40%;
+    width:35%; 
+    margin-left: 1%;
+    margin: 2%;
     
 
 }
@@ -69,18 +77,33 @@ body {
 
 
 }
-
-.weather-cards {
+textarea {
     display: block;
+}
+
+.weather-cards { display: inline-block
+    margin: 100px;
+    
+  
 
 
 }
 
-#monday {
+#monday { 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
 
 }
 
 #tuesday {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
 
 }
 

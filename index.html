@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <pnk rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
@@ -14,33 +14,55 @@
 <body>
 
     <nav class = "dashboard">Weather Dashboard</nav>
+    <div class ="style">
     <section class ="left-chart">
-      <h1>Search for a City:</h1>
+      <h3>Search for a City:</h3>
       <textarea name="search-city" id="search-city" cols="30" rows="1"></textarea>
-      <button type ="search" class="btn">Search</button>
-      <id class = "line"></id>
+      <button type ="search" id='search' class="btn">Search</button>
+      <hr class = "line"></hr>
       <div class ="columns"></div> 
-  </section>
+    </section>
+    
     <section class = "center-container">
       <div class = "current-city">
       <h1>Dallas</h1>
       <div class = "present"> 
-        <li>temp:</li>
-        <li>wind:</li>
-        <li>Humidity:</li>
+        <p>temp: <span id="currentTemp"></span></p>
+        <p>wind: <span id="currentWind"></span></p>
+        <p>Humidity: <span id="cureeentHumidity"></span></p>
       </div>
-      </div>
-    </section>
-
-    
+    </div>
+  
     <section class ="weather-cards">
-      <h2>5-Day Forecast:</h2>
-      <id class ="monday"></id>
-      <id class="tuesday"></id>
-      <id class ="wednesday"></id>
-      <id class ="thursday"></id>
-      <id class ="friday"></id>
+      <div class="week"><h1>5-Day Forcast:</h1></div>
+      <div class="card" style="width: 18rem; height: 20rem; background-color: blue;">
+        <div class="card-body">
+          <h1 class="card-title">Monday</h1>
+         </div>
+      </div>
+      <div class="card" style="width: 18rem; height: 20rem; background-color: blue;">
+        <div class="card-body">
+          <h1 class="card-title">Tuesday</h1>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; height: 20rem; background-color: blue;">
+        <div class="card-body">
+          <h1 class="card-title">wednesday</h1>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; height: 20rem; background-color: blue;">
+        <div class="card-body">
+          <h1 class="card-title">Thursaday</h1>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; height: 20rem; background-color: blue;">
+        <div class="card-body">
+          <h1 class="card-title">Friday</h1>
+        </div>
+      </div>
     </section>
+  </section>
+    
 
 
 
