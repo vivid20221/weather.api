@@ -2,14 +2,11 @@
 
 }
 
-* {
 
-}
+
 
 body { 
-
-
-
+    
 }
 
 .style {
@@ -26,22 +23,36 @@ body {
     text-size-adjust: 40px;
     padding: 10px;
     
+  
 
 
 
 }
 
 .center-container{
-    width: 80%;
-    margin: 40px
+    width: 100%;
+    
+ 
+
+    
+    
    
+}
+.week {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .current-city {
-    12px; border: 1px solid blue;
+    justify-content: space-around;
+    margin: 3%;
+    padding: 12px; 
+    border: 1px solid blue;
+    
+}
 
-
-
+.title {
+   width: 70%;
 }
 
 
@@ -57,10 +68,10 @@ body {
 
 }
 
-#search-city {
 
 
-}
+
+
 
 
 .btn {
@@ -68,56 +79,39 @@ body {
 
 }
 
-.line{
 
 
-}
-
-.columns {
 
 
-}
+
+
 textarea {
     display: block;
 }
+ 
 
-.weather-cards { display: inline;
+
+
+.weather-cards {
+   
+        /* We first create a flex layout context */
+        display: flex;
+        
+       flex-wrap: wrap;
+        
+        justify-content: space-between;
+        margin: 0%;
+        padding: 0%;
+        list-style: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        text-align: center;
+    
    
   
-
-
 }
 
-#monday { 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 30px;
-    display:inline ;
-    text-align: center;
-   
 
-}
-
-#tuesday {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-
-}
-
-#wednesday {
-
-
-}
-
-#thursday {
-
-
-}
-
-#friday {
-
-
-}
+@media (max-width: 1250px) {
+    /* … */
+  }
 
