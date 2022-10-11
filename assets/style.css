@@ -1,17 +1,23 @@
-:root {
-
-}
 
 
 
 
-body { 
+body { max-width: 100%;
+    max-height: 100%;
     
 }
 
+img {
+   
+
+    background-image: url(https://github.com/vivid20221/weather.api/blob/dd9399138a9904a110cdb47dd9e54dd35e09df2b/images/AdobeStock_266381525.jpeg);
+
+}
+
 .style {
-    display: inline-flex; 
+    display: inline-flex;
     width: 100%;
+    align-items: flex-start;
 
 
 }
@@ -22,7 +28,7 @@ body {
     color: white;
     text-size-adjust: 40px;
     padding: 10px;
-    
+    margin-bottom: 40px;
   
 
 
@@ -30,29 +36,41 @@ body {
 }
 
 .center-container{
-    width: 100%;
-    
- 
+    border: 100px;
 
-    
+
     
    
 }
+
+
 .week {
     display: flex;
     flex-wrap: wrap;
 }
 
+
+
 .current-city {
-    justify-content: space-around;
-    margin: 3%;
-    padding: 12px; 
-    border: 1px solid blue;
-    
-}
+
+        outline: black;
+        
+        outline: outset blue;
+        
+        display: flex;
+        
+        flex-direction: column-reverse;
+        
+        align-items: flex-start;
+        }
+
+
+
+
 
 .title {
    width: 70%;
+   margin-left: 624px;
 }
 
 
@@ -61,11 +79,16 @@ body {
 }
 
 .left-chart {
-    width:35%; 
+    width: 50%; 
+    margin-top: -247px;
     margin-left: 1%;
     margin: 2%;
-    
-
+    justify-content: start;
+    display: inline-grid;
+    align-items: center;
+    justify-items: start;
+    align-content: center;
+  
 }
 
 
@@ -76,9 +99,21 @@ body {
 
 .btn {
     background-color:rgb(176, 235, 255);
-
+    width: 98%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 6px;
+   
 }
 
+hr {
+   background-color: black;
+width: 100%;
+
+}
 
 
 
@@ -93,25 +128,21 @@ textarea {
 
 
 .weather-cards {
-   
-        /* We first create a flex layout context */
         display: flex;
-        
-       flex-wrap: wrap;
-        
+         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 0%;
+        margin: 3%;
         padding: 0%;
         list-style: none;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        text-align: center;
+         text-align: left;
+         margin-left: 300px;
+        
     
    
   
 }
 
-
-@media (max-width: 1250px) {
-    /* … */
-  }
-
+@media (max-width: 3000px) {
+    .weather-cards .body .center-container .current-city {   
+      flex-direction: column;
+    }

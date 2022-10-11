@@ -18,18 +18,21 @@
     <section class ="left-chart">
       <h3>Search for a City:</h3>
       <textarea name="search-city" id="search-city" cols="30" rows="1"></textarea>
-      <button type ="search" id='search' class="btn">Search</button>
       <hr class = "line"></hr>
-      <div class ="columns"></div> 
+      <button type ="search" id='search' class="btn">Search</button>
+      
+ <div class ="columns"></div> 
     </section>
     
     <section class = "center-container">
-     <div class = "current-city">
-      <h1>Dallas</h1>
+       <div class = "current-city">
+        <div class="img">
+      <img src="./images/AdobeStock_266381525.jpeg" alt="different weather elements. thunder,sunset , sunny cloudy clear sky." width="600" height="400"></div>
+      <h1></h1>
        
         <p>temp: <span id="currentTemp"></span></p>
         <p>wind: <span id="currentWind"></span></p>
-        <p>Humidity: <span id="cureeentHumidity"></span></p>
+        <p>Humidity: <span id="currentHumidity"></span></p>
         </div>
       </div>
     </section>
@@ -39,29 +42,40 @@
       <div class="title"><h1>5-Day Forcast:</h1>
       </div>
       <section class ="weather-cards">
-      <div class="card" style="width: 14rem height: 15rem; background-color: blue;">
+      <div class="card" style="width: 14rem; height: 15rem; background-color: rgb(128, 213, 228);">
         <div class="card-body">
-          <h1 class="card-title">Monday</h1>
+          <h4 class="card-title">Monday</h4><p>temp: <span id="monCurrentTemp"></span></p>
+          <p>wind: <span id="monCurrentWind"></span></p>
+          <p>Humidity: <span id="monCurrentHumidity"></span></p>
+          </p>
          </div>
       </div>
-      <div class="card" style="width: 14rem; height: 15rem; background-color: blue;">
+      <div class="card" style="width: 14rem; height: 15rem; background-color: rgb(128, 213, 228) ">
         <div class="card-body">
-          <h1 class="card-title">Tuesday</h1>
+          <h4 class="card-title">Tuesday</h4><p>temp: <span id="tueCurrentTemp"></span></p>
+          <p>wind: <span id="tueCurrentWind"></span></p>
+          <p>Humidity: <span id="tueCurrentHumidity"></span></p>
         </div>
       </div>
-      <div class="card" style="width: 14rem; height: 15rem; background-color: blue;">
+      <div class="card" style="width: 14rem; height: 15rem; background-color: rgb(128, 213, 228);">
         <div class="card-body">
-          <h1 class="card-title">wednesday</h1>
+          <h4 class="card-title">wednesday</h4><p>temp: <span id="wedCurrentTemp"></span></p>
+          <p>wind: <span id="wedCurrentWind"></span></p>
+          <p>Humidity: <span id="wedCurreentHumidity"></span></p>
         </div>
       </div>
-      <div class="card" style="width: 14rem; height: 15rem; background-color: blue;">
+      <div class="card" style="width: 14rem; height: 15rem; background-color:  rgb(128, 213, 228);">
         <div class="card-body">
-          <h1 class="card-title">Thursaday</h1>
+          <h4 class="card-title">Thursaday</h4><p>temp: <span id="thurCurrentTemp"></span></p>
+          <p>wind: <span id="thurCurrentWind"></span></p>
+          <p>Humidity: <span id="thurCurrentHumidity"></span></p>
         </div>
       </div>
-      <div class="card" style="width: 14rem; height: 15rem; background-color: blue;">
+      <div class="card" style="width: 14rem; height: 15rem; background-color:  rgb(128, 213, 228);">
         <div class="card-body">
-          <h1 class="card-title">Friday</h1>
+          <h4 class="card-title">Friday</h4><p>temp: <span id="friCurrentTemp"></span></p>
+          <p>wind: <span id="friCurrentWind"></span></p>
+          <p>Humidity: <span id="friCurrentHumidity"></span></p>
         </div>
         </div>
     </section>
