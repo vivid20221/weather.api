@@ -142,7 +142,3 @@ textarea {
   
 }
 
-@media (max-width: 3000px) {
-    .weather-cards .body .center-container .current-city {   
-      flex-direction: column;
-    }
