@@ -1,144 +1,26 @@
 
-
-
-
-body { max-width: 100%;
-    max-height: 100%;
-    
-}
-
-img {
-   
-
-    background-image: url(https://github.com/vivid20221/weather.api/blob/dd9399138a9904a110cdb47dd9e54dd35e09df2b/images/AdobeStock_266381525.jpeg);
-
-}
-
-.style {
-    display: inline-flex;
-    width: 100%;
-    align-items: flex-start;
-
-
-}
-
-.dashboard {
-    background-color:rgb(176, 235, 255);
-    text-align: center;
-    color: white;
-    text-size-adjust: 40px;
-    padding: 10px;
-    margin-bottom: 40px;
-  
-
-
-
-}
-
-.center-container{
-    border: 100px;
-
-
-    
-   
-}
-
-
-.week {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-
-.current-city {
-
-        outline: black;
-        
-        outline: outset blue;
-        
-        display: flex;
-        
-        flex-direction: column-reverse;
-        
-        align-items: flex-start;
-        }
-
-
-
-
-
-.title {
-   width: 70%;
-   margin-left: 624px;
-}
-
-
-.present {
-
-}
-
-.left-chart {
-    width: 50%; 
-    margin-top: -247px;
-    margin-left: 1%;
-    margin: 2%;
-    justify-content: start;
-    display: inline-grid;
-    align-items: center;
-    justify-items: start;
-    align-content: center;
-  
-}
-
-
-
-
-
-
-
-.btn {
-    background-color:rgb(176, 235, 255);
-    width: 98%;
-    padding: 7px;
-    border: 1px solid #ccc;
-    border-radius: 16px;
+*{
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 6px;
-   
-}
-
-hr {
-   background-color: black;
-width: 100%;
-
-}
-
-
-
-
-
-
-textarea {
-    display: block;
-}
- 
-
-
-
-.weather-cards {
-        display: flex;
-         flex-wrap: wrap;
-        justify-content: space-between;
-        margin: 3%;
-        padding: 0%;
-        list-style: none;
-         text-align: left;
-         margin-left: 300px;
-        
     
-   
-  
 }
 
+body {
+    
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+h3{
+    font-weight: bold;
+}
+.forecast{
+    
+    font-size: 0.9em;
+}
+span{
+    font-size: 1em;
+}
+li:hover{
+    background-color: lightslategray;
+    text-decoration: underline;
+}
